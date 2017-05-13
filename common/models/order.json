@@ -1,6 +1,6 @@
 {
   "name": "Order",
-  "base": "PersistedModel",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -15,11 +15,6 @@
   },
   "validations": [],
   "relations": {
-    "customer": {
-      "type": "belongsTo",
-      "model": "Customer",
-      "foreignKey": ""
-    }
   },
   "acls": [],
   "methods": {}

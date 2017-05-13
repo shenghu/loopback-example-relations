@@ -27,39 +27,11 @@
     "public": false
   },
   "Customer": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true
-  },
-  "Address": {
-    "dataSource": "transient",
-    "public": false
-  },
-  "EmailAddress": {
-    "dataSource": "transient",
-    "public": false
-  },
-  "Account": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Author": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Reader": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Book": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Link": {
-    "dataSource": "transient",
-    "public": false
   },
   "Order": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true
   }
 }
